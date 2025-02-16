@@ -50,16 +50,16 @@ export default function RootLayout({
 
                 {/* Center: Navigation Links */}
                 <div className="flex items-center justify-center gap-14 font-manrope font-light text-base text-white">
-                  <a href="#" id="nav-item" className="hover:text-blue-300 hover:border-b-2 border-blue-200">Services</a>
-                  <a href="#" id="nav-item" className="hover:text-blue-300 hover:border-b-2 border-blue-200">About Us</a>
-                  <a href="#" id="nav-item" className="hover:text-blue-300 hover:border-b-2 border-blue-200">Our Projects</a>
+                  <a href="#" id="nav-item" className="hover:text-amber-400 hover:border-b-2 border-amber-500">Services</a>
+                  <a href="#" id="nav-item" className="hover:text-amber-400 hover:border-b-2 border-amber-500">About Us</a>
+                  <a href="#" id="nav-item" className="hover:text-amber-400 hover:border-b-2 border-amber-500">Our Projects</a>
                 </div>
 
                 {/* Right: Contact Us Button */}
                 <div className="flex items-center">
                   <a href="#" 
                     id="nav-item" 
-                    className="text-white bg-gradient-to-r from-blue-500 to-blue-900 p-2 font-manrope font-semibold text-base rounded-md transition-all hover:from-blue-700 hover:to-blue-500">
+                    className="text-white bg-gradient-to-r from-amber-500 to-orange-600 p-2 font-manrope font-semibold text-base rounded-md transition-all hover:from-orange-700 hover:to-amber-500">
                     Contact Us
                   </a>
                 </div>
