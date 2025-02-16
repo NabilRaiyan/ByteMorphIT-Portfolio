@@ -7,6 +7,7 @@ import { Geist } from "next/font/google";
 import { ThemeProvider } from "next-themes";
 import Link from "next/link";
 import "./globals.css";
+import Image from "next/image";
 
 const defaultUrl = process.env.VERCEL_URL
   ? `https://${process.env.VERCEL_URL}`
@@ -14,8 +15,8 @@ const defaultUrl = process.env.VERCEL_URL
 
 export const metadata = {
   metadataBase: new URL(defaultUrl),
-  title: "Next.js and Supabase Starter Kit",
-  description: "The fastest way to build apps with Next.js and Supabase",
+  title: "ByteMorphIT",
+  description: "A futurestic tech company",
 };
 
 const geistSans = Geist({
@@ -39,27 +40,24 @@ export default function RootLayout({
         >
           <main className="min-h-screen flex flex-col items-center">
             <div className="flex-1 w-full flex flex-col gap-20 items-center">
-              <nav className="w-full flex justify-center border-b border-b-foreground/10 h-16">
-                <div className="w-full max-w-5xl flex justify-between items-center p-3 px-5 text-sm">
-                  <div className="flex gap-5 items-center font-semibold">
-                  <a href="#">
-                        Home
-                      </a>
-                    <div className="flex items-center gap-2">
-                      
-                      <a href="#">
-                        Home
-                      </a>
-                      <a href="#">
-                        About us
-                      </a>
-                      <a href="#">
-                        Services
-                      </a>
-                    </div>
+            <nav className="w-full flex justify-center border-b border-b-foreground/10 h-16 bg-slate-300">
+                <div className="w-full max-w-5xl flex justify-center items-center p-3 px-5 text-sm">
+                  <div className="flex gap-10 items-center font-semibold">
+                    <a href="#" className="font-space text-xl pr-9">ByteMorphIT</a>
                   </div>
+                  <div className="flex items-center justify-center gap-10 font-manrope font-light text-base text-black">
+                    <a href="#" id="nav-item" className="hover:text-blue-800 hover:border-b-2 border-blue-900">Services</a>
+                    <a href="#" id="nav-item" className="hover:text-blue-800 hover:border-b-2 border-blue-900">About Us</a>
+                    <a href="#" id="nav-item" className="hover:text-blue-800 hover:border-b-2 border-blue-900">Our Projects</a>
+                    <a href="#" 
+                    id="nav-item" 
+                    className="items-center justify-center text-white bg-gradient-to-r from-blue-500 to-blue-900 p-2 font-manrope font-semibold text-base rounded-md transition-all hover:from-blue-700 hover:to-blue-500">
+                    Contact Us
+                  </a>
+                  </div>
+                  
                 </div>
-              </nav>
+            </nav>
               <div className="flex flex-col gap-20 max-w-5xl p-5">
                 {children}
               </div>

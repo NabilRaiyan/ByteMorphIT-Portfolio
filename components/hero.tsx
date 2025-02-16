@@ -7,6 +7,7 @@ export default function Header() {
       <div className="flex gap-8 justify-center items-center">
         Hello
       </div>
+      
       <div className="w-full p-[1px] bg-gradient-to-r from-transparent via-foreground/10 to-transparent my-8" />
     </div>
   );
