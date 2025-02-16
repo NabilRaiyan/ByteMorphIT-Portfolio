@@ -42,12 +42,22 @@ export default function RootLayout({
               <nav className="w-full flex justify-center border-b border-b-foreground/10 h-16">
                 <div className="w-full max-w-5xl flex justify-between items-center p-3 px-5 text-sm">
                   <div className="flex gap-5 items-center font-semibold">
-                    <Link href={"/"}>Next.js Supabase Starter</Link>
+                  <a href="#">
+                        Home
+                      </a>
                     <div className="flex items-center gap-2">
-                      <DeployButton />
+                      
+                      <a href="#">
+                        Home
+                      </a>
+                      <a href="#">
+                        About us
+                      </a>
+                      <a href="#">
+                        Services
+                      </a>
                     </div>
                   </div>
-                  {!hasEnvVars ? <EnvVarWarning /> : <HeaderAuth />}
                 </div>
               </nav>
               <div className="flex flex-col gap-20 max-w-5xl p-5">
