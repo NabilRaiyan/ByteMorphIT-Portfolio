@@ -45,7 +45,7 @@ export default function RootLayout({
                 
                 {/* Left: Logo */}
                 <div className="flex items-center font-semibold">
-                  <a href="#" className="font-space text-xl text-amber-200">ByteMorphIT</a>
+                  <a href="#" className="font-space text-xl text-cyan-300">ByteMorph<span className="text-orange-500">IT</span></a>
                 </div>
 
                 {/* Center: Navigation Links */}

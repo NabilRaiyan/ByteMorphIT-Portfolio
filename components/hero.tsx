@@ -16,7 +16,7 @@ export default function Header() {
       {/* Left Text Section */}
       <div className="w-full md:w-1/2 text-white font-space leading-tight relative md:top-3 md:left-10">
         <h1 className="text-5xl md:text-[4.5rem] font-bold">Welcome To</h1>
-        <h1 className="text-5xl md:text-[4.5rem] font-bold mt-2">ByteMorphIT</h1>
+        <h1 className="text-5xl md:text-[4.5rem] font-bold mt-2">ByteMorph<span className="text-orange-500">IT</span></h1>
 
         <p className="font-manrope mt-10 text-slate-300 text-xl md:text-lg text-wrap text-justify">
           At <span className="text-amber-500 font-semibold">ByteMorphIT</span>, we create seamless software solutions from{" "}
@@ -31,7 +31,7 @@ export default function Header() {
         {/* hero section button */}
         <div className="flex flex-row gap-7 mt-10">
           <button className="text-white bg-gradient-to-r from-amber-500 to-orange-600 p-3 rounded-sm font-space transition-all hover:from-orange-700 hover:to-amber-500 delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110">Our Services</button>
-          <button className="text-amber-600 bg-black border border-amber-500 p-3 rounded-sm font-manrope transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110">Let's connect</button>
+          <button className="text-white bg-black border border-amber-500 p-3 rounded-sm font-manrope transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110">Let's connect</button>
         </div>
 
       </div>
