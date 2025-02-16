@@ -27,6 +27,13 @@ export default function Header() {
           <span className="text-amber-500 font-light">AI</span> drive smarter decisions and innovation. Whether building new 
           products or optimizing existing ones, ByteMorphIT transforms your ideas into impactful digital solutions.
         </p>
+
+        {/* hero section button */}
+        <div className="flex flex-row gap-7 mt-10">
+          <button className="text-white bg-gradient-to-r from-amber-500 to-orange-600 p-3 rounded-sm font-space transition-all hover:from-orange-700 hover:to-amber-500 delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110">Our Services</button>
+          <button className="text-amber-600 bg-black border border-amber-500 p-3 rounded-sm font-manrope transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110">Let's connect</button>
+        </div>
+
       </div>
 
       {/* Right Image Section */}
