@@ -19,7 +19,6 @@ export default function Service(){
             <ServiceCard />
             <ServiceCard />
             <ServiceCard />
-
             <ServiceCard />
             <ServiceCard />
             <ServiceCard />
