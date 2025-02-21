@@ -8,18 +8,20 @@ interface CardProps {
 
 const ServiceCard = ({ title, description, icon }: CardProps) => {
   return (
-    <div className="bg-gradient-to-r from-amber-400 to-orange-700 text-white p-6 rounded-lg shadow-lg flex flex-col items-center text-center w-64 h-64">
+    <div className="bg-gradient-to-r bg-black p-6 rounded-lg shadow-lg flex flex-col items-center w-64 h-64">
       <div className="w-16 h-16">
         <Image
           src={icon}
           alt={`${title} icon`}
           width={64}
           height={64}
-          className="object-contain mb-14"
+          className="object-contain mb-14 relative bottom-14"
         />
       </div>
-      <h1 className="text-xl font-bold mt-4">{title}</h1>
-      <p className="text-sm mt-2">{description}</p>
+      <div className="relative bottom-12">
+        <h1 className="text-xl font-bold mt-0 text-center font-space text-orange-400">{title}</h1>
+        <p className="text-sm mt-4 font-manrope text-left text-gray-300">{description}</p>
+      </div>
     </div>
   );
 };

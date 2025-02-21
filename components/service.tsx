@@ -38,9 +38,11 @@ export default function Service() {
 
       <hr className="w-32 h-1 mx-auto bg-gradient-to-r from-amber-400 via-amber-500 to-orange-600 border-0 rounded-sm dark:bg-gray-700" />
 
-      <div className="flex flex-row gap-8 mt-16 overflow-hidden flex-wrap p-10 items-center justify-center">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-16 mt-16 p-16 items-center justify-center">
         {loading ? (
-          <p className="text-amber-500 font-space text-4xl font-bold">Loading...</p>
+          <div className="col-span-full flex items-center justify-center min-h-[200px]">
+            <p className="text-emerald-400 font-space text-4xl font-bold">Loading...</p>
+          </div>
         ) : services.length > 0 ? (
           services.map((service) => (
             <ServiceCard
@@ -51,9 +53,14 @@ export default function Service() {
             />
           ))
         ) : (
-          <p className="text-red-400 font-space font-3xl">No services available.</p>
+          <p className="text-red-400 font-space text-3xl col-span-full text-center">
+            No services available.
+          </p>
         )}
       </div>
+      <button className="text-white bg-black border border-amber-500 p-3 mb-10 rounded-sm font-manrope transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110">Let's Connect</button>
+
+
     </section>
   );
 }
