@@ -33,7 +33,7 @@ export default function Service() {
   }, []);
 
   return (
-    <section className="bg-gradient-to-r from-black via-black to-slate-800 overflow-hidden flex flex-col items-center h-screen w-full">
+    <section className="bg-gradient-to-r from-black via-black to-slate-800 overflow-hidden flex flex-col items-center min-h-screen w-full">
       <h1 className="font-space text-[2.6rem] mt-16 text-white">SERVICES</h1>
 
       <hr className="w-32 h-1 mx-auto bg-gradient-to-r from-amber-400 via-amber-500 to-orange-600 border-0 rounded-sm dark:bg-gray-700" />
