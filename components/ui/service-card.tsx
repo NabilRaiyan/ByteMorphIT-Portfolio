@@ -8,7 +8,7 @@ interface CardProps {
 
 const ServiceCard = ({ title, description, icon }: CardProps) => {
   return (
-    <div className="bg-gradient-to-r from-black to-slate-800 p-6 rounded-lg shadow-lg flex flex-col items-center w-64 h-64">
+    <div className="bg-gradient-to-r from-black to-slate-800 p-6 rounded-lg shadow-lg flex flex-col items-center w-64 h-64 drop-shadow-lg hover:shadow-custom">
       <div className="w-16 h-16">
         <Image
           src={icon}

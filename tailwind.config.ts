@@ -22,6 +22,9 @@ const config = {
         "space": ["Space Grotesk", "serif"],
         manrope: ["Manrope", "lora", "sans-serif"]
       },
+      boxShadow: {
+        'custom': '5px 5px 20px rgba(192, 194, 201, 0.4)',
+      },
       colors: {
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
