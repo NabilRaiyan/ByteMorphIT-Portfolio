@@ -2,7 +2,7 @@
 import { GlobeDemo } from "./ui/GlobeDemo";
 
 
-// header
+// header section
 export default function Header() {
   return (
     // <div 
