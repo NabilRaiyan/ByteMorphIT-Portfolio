@@ -11,6 +11,7 @@ const supabase = createClient(
   process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY!
 );
 
+// service section
 export default function Service() {
   const tableName = "service";
 
