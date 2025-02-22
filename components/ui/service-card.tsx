@@ -1,5 +1,7 @@
 import Image from "next/image";
 
+
+// Card props
 interface CardProps {
   title: string;
   description: string;
