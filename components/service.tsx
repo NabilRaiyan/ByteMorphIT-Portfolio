@@ -4,6 +4,8 @@ import { createClient } from "@supabase/supabase-js";
 import { useEffect, useState } from "react";
 import ServiceCard from "./ui/service-card";
 
+
+// supabase client
 const supabase = createClient(
   process.env.NEXT_PUBLIC_SUPABASE_URL!,
   process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY!
