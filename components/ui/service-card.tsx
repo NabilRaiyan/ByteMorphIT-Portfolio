@@ -9,6 +9,7 @@ interface CardProps {
   icon: string;
 }
 
+
 // service card
 const ServiceCard = ({ title, description, icon }: CardProps) => {
   return (
