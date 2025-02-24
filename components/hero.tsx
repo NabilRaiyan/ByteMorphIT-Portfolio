@@ -1,8 +1,6 @@
 
 import { GlobeDemo } from "./ui/GlobeDemo";
 
-
-
 // header section
 export default function Header() {
   return (
