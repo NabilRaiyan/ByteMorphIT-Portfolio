@@ -10,8 +10,6 @@ export default function Header() {
   
     //   {/* Dark Overlay for better contrast (Optional) */}
     //   <div className="absolute inset-0 bg-black/40"></div>
-
-      
     // </div>
     <section className="bg-gradient-to-r from-black via-black to-slate-800 flex flex-col md:flex-row items-center h-screen w-full overflow-hidden px-6 md:px-12">
       {/* Left Text Section */}
