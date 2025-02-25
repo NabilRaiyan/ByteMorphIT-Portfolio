@@ -34,8 +34,7 @@ export default function Header() {
         </div>
 
       </div>
-
-      {/* Right Image Section */}
+      {/* Right Image Sections */}
       <div className="w-full md:w-1/2 flex justify-center md:justify-end mt-10 md:mt-0">
         <GlobeDemo />
       </div>
